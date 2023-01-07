@@ -1,0 +1,93 @@
+/* Text Metni ortalama */
+.text-center{
+    text-align: center;
+}
+/* heading small yazilarin olcusu */
+.heading-small{
+    font-size: 1.25rem;
+}
+/* heading medium  */
+.heading-medium{
+    font-size: 1.5rem;
+}
+/* heading small   */
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* color */
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-light-blue{
+    background: #336ea2;
+}
+/* Buttons */
+.btn{  
+    border: 1px solid black;
+    padding: 0.8rem 3rem;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    background-color: #336ea2;
+}
+.btn-primary:hover{
+    color: #336ea2;
+    background-color:white ;
+    border-radius: 10px;
+}
+.btn-dark{
+    background-color: #333;
+}
+.btn-dark:hover{
+    color: #333;
+    background-color:white ;
+    border-radius: 10px;
+}
+.btn-block{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+/* container */
+.container{
+    max-width:1500px;
+    margin: 0,auto;
+}
+/* Training */
+#training{
+    color: white;    
+    padding: 1rem;    
+}
+#training .items{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    
+}
+#training .items .item{
+    text-align: center;
+   width: 33%;  
+   padding: 0.5rem; 
+   
+}
+#training .items .item:hover{
+    
+   color: aqua;
+}
+/* footer */
+/* form */
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 10px;
+}

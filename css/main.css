@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family:  "Andika" ,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+    
+}
+/* Navbar Section*/
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 5px;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px solid gray;
+    
+}
+#home img{
+    max-width: 40%;
+    /* oz olcusunun avtomatik olaraq width-ye gore ayarliyir */
+    height: auto; 
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.7;
+    font-style: italic;
+}
+/* Courses */
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+.courses .course .course-image{
+    margin-right: 2rem;
+    position: relative;
+}
+.courses .course .course-image img{
+    border-radius: 10px;
+    
+}
+.courses .course .course-image span{
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+
+}
+.courses .course .title{
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.courses .course .description{
+    letter-spacing: 1px;   
+    margin-bottom: 0.1rem;
+    opacity: 0.5;
+}
+.courses .course .instraction{
+    font-size: 1rem;  
+    margin-bottom: 0.1rem;
+    opacity: 0.9;
+}
+.courses .course .rating{
+    font-size: 1rem;  
+    margin-bottom: 0.1rem;
+    
+}
+.courses .course .rating i{
+    color: #ff4800;    
+}
+/* Footer */
+#contact{
+    color: white;
+    padding: 1.5rem;
+    
+}
+#contact .contact-form{
+    max-width:700px ;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    
+}
+#contact .contact-form ul li{
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li:hover{    
+    opacity: 0.5;
+}
